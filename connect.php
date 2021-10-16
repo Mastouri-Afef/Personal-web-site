@@ -4,7 +4,7 @@
 	$country = $_POST['country'];
 	$subject = $_POST['subject'];
 	//Database connection
-	$conn = new mysqli('localhost','id17772007_developermastouri','v>(I/2|/?el4+J2X','id17772007_contact_database');
+	$conn = new mysqli('localhost','id17772007_developermastouri','','');
     if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
