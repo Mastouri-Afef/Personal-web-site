@@ -1,1 +1,1 @@
-alert("Hey There, Welcome in my own website!")
+alert("Hey There, Welcome to our website!")

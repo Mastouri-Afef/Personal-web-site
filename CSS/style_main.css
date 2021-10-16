@@ -2,10 +2,11 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
   line-height: 1.6;
+  background: url("../images/stack1.jpg") no-repeat center;
 }
 .container {
   max-width: 968px;
-  margin-left: 1.5rem;
+  margin-left: 11rem;
   margin-right: 1.5rem;
 }
 .home__description {
@@ -23,6 +24,7 @@ body {
 .button
 {
 	background: white;
+	margin-left: 9rem;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #353637;
@@ -31,4 +33,8 @@ body {
 {
 	color: skyblue;
 	text-decoration: unset;
+}
+a
+{
+margin-left: 9rem;
 }

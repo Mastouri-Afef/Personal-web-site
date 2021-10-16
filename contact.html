@@ -3,42 +3,50 @@
     <title> contact.me  |</title>
     <link rel="stylesheet" href="./CSS/contact.css">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="cute-alert-master/style.css" />        
   </head>
   <body>
      <div class="container">
-  <form action="action_page.php">
+        <form action="connect.php" method="POST">
 
-    <label for="fname">E-mail</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="fname">E-mail</label>
+        <input type="text" id="email" name="email" placeholder="Your E-mail..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">Username</label>
+        <input type="text" id="username" name="username" placeholder="Your Username..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-      <option value="usa">Tunisia</option>
-      <option value="usa">Algérie</option>
-      <option value="usa">Maghreb</option>
-      <option value="usa">Lebanon</option>
-      <option value="usa">Egypt</option>
-      <option value="usa">France</option>
-      <option value="usa">Germany</option>
-      <option value="usa">india</option>
-      <option value="usa">Russia</option>
-      <option value="usa">Pakistan</option>
-      <option value="usa">spain</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="usa">Tunisia</option>
+          <option value="usa">Algérie</option>
+          <option value="usa">Maghreb</option>
+          <option value="usa">Lebanon</option>
+          <option value="usa">Egypt</option>
+          <option value="usa">France</option>
+          <option value="usa">Germany</option>
+          <option value="usa">India</option>
+          <option value="usa">Russia</option>
+          <option value="usa">Pakistan</option>
+          <option value="usa">Spain</option>
+          <option value="usa">Qatar</option>
+          <option value="usa">Colombia</option>
+          <option value="usa">China</option>
+          <option value="usa">Turkey</option>
+          <option value="usa">Ukraine</option>
+          <option value="usa">United Arab Emirates (UAE)</option>
+          <option value="usa">Portugal</option>
+          <option value="usa">Other Country</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <input id="submit" type="submit" value="Submit">
+       </form>
+      </div>
+      <script src="cute-alert-master/cute-alert.js"></script> 
+      <script src="js/contact.js"></script>   
   </body>
 </html>
 
